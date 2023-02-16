@@ -1,0 +1,115 @@
+/*Kwok To Yu 041070504*/
+
+*{
+    background-color: #DDD78D;
+    color: #343434;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #60594D;
+    border: 4px #343434 solid;
+    padding: 10px;
+}
+
+header h1{
+    color: #93A29B;
+
+}
+
+header > *{
+    background-color:  #60594D;
+}
+
+footer{
+    background-color: #60594D;
+    border: 4px #343434 solid;
+    padding: 10px;
+}
+
+footer > *{
+    color: #93A29B;
+    background-color: #60594D;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+header nav{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #60594D;
+}
+
+header nav>a, footer nav>a{
+    padding: 5px;
+    background-color: white;
+    font-size: 12px;
+}
+
+.nav-element{
+    border: black solid 1px;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #8B635C;
+}
+
+nav > a:hover{
+    background-color: rgb(197, 197, 146);
+}
+
+main p{
+    font-size: 14px;
+}
+
+h2{
+    font-weight: 700;
+}
+
+.quotation-paragraph{
+    text-align: center;
+    background-color: #DCBF85;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
+.general-paragraph, ul > li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul > li{
+    font-weight: bold;
+}
+
+img{
+    width: 25%;
+    margin: 10px;
+    float: right;
+}
+
+footer nav{
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#author{
+    text-align: right;
+    font-size: 10px;
+    font-style: italic;
+    padding-top: 20px;
+}
